@@ -1,0 +1,7 @@
+{
+  "name": "secure-storage-async-issue",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
