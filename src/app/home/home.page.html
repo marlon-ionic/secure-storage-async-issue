@@ -14,24 +14,7 @@
   </ion-header>
   <div class="main">
     <ion-label class="ion-margin">Click here to get started. In the browser console, you'll see an error that storage couldn't be destroyed because a transaction is in progress.</ion-label>
-    <ion-button color="primary" (click)="createAndDestroy4()">Create/Destory (Set)</ion-button>
-    <ion-grid>
-      <ion-row class="ion-justify-content-center">
-        <ion-col>
-          <ion-label>Other options</ion-label>
-        </ion-col>
-      </ion-row>
-      <ion-row class="ion-justify-content-center">
-        <ion-col><ion-button color="success" (click)="create()">Create</ion-button></ion-col>
-        <ion-col><ion-button color="danger" (click)="destroy()">Destroy</ion-button></ion-col>
-        <ion-col><ion-button color="tertiary" (click)="keys()">Keys</ion-button></ion-col>
-      </ion-row>
-      <ion-row class="ion-justify-content-center">
-        <ion-col><ion-button color="secondary" (click)="createAndDestroy()">Create/Destory (Two functions)</ion-button></ion-col>
-        <ion-col><ion-button color="warning" (click)="createAndDestroy2()">Create/Destory (Inline)</ion-button></ion-col>
-        <ion-col><ion-button color="primary" (click)="createAndDestroy3()">Create/Destory (Only)</ion-button></ion-col>
-      </ion-row>
-    </ion-grid>
+    <ion-button color="primary" (click)="createAndDestroyUI()">Create/Destory (Set)</ion-button>
   </div>
 
 </ion-content>
